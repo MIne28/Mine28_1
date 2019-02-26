@@ -1,0 +1,30 @@
+.group1 {
+  border: 1px solid red;
+}
+
+.left {
+  border: 1px solid blue;
+  width: 200px;
+  height: 100px;
+  float: left;
+  background: tomato;
+}
+
+.right {
+  border: 1px solid blue;
+  width: 200px;
+  height: 100px;
+  float:right;
+  background: pink;
+}
+
+.group2 {
+  height: 100px;
+  background: yellow;
+}
+
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: block;
+}
